@@ -1,0 +1,27 @@
+{
+  "name": "nps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "pg": "^8.5.1",
+    "querystring": "^0.2.0",
+    "shortid": "^2.2.16",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
+}
