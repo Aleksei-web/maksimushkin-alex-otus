@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="affdc08a-b68a-4f1e-b0af-b8df5623c06d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/custom-elements/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-elements/my-leaf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-elements/my-tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-elements/readme.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Q06RM42dfvF72Si5XVojX6bMxN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "14.20.0",
+    "javascript.nodejs.core.library.typings.version": "14.18.48",
+    "last_opened_file_path": "/home/alex/project/mosline-personal-data",
+    "nodejs.jest.jest_package": "/home/alex/project/maksimushkin-alex-otus/get-path/node_modules/jest",
+    "nodejs_interpreter_path": "/home/alex/.nvm/versions/node/v14.20.0/bin/node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/app/extra/webstorm/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/intro" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="getPath.should return a unique CSS selector for an multiple the same element" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/get-path/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/get-path" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/get-path/getPath.test.js" />
+      <test-names>
+        <test-name value="getPath" />
+        <test-name value="should return a unique CSS selector for an multiple the same element" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.getPath.should return a unique CSS selector for an multiple the same element" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="affdc08a-b68a-4f1e-b0af-b8df5623c06d" name="Changes" comment="" />
+      <created>1684478145580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684478145580</updated>
+      <workItem from="1684478146680" duration="871000" />
+      <workItem from="1685033927857" duration="4535000" />
+      <workItem from="1685080962452" duration="41000" />
+      <workItem from="1685431039080" duration="6553000" />
+      <workItem from="1685452635132" duration="3887000" />
+      <workItem from="1685460557351" duration="4112000" />
+      <workItem from="1685465652690" duration="2610000" />
+      <workItem from="1685535601155" duration="8504000" />
+      <workItem from="1685545065316" duration="6262000" />
+      <workItem from="1685595001313" duration="5443000" />
+      <workItem from="1685632926700" duration="34612000" />
+      <workItem from="1685940597835" duration="2790000" />
+      <workItem from="1685944234815" duration="910000" />
+      <workItem from="1685945318848" duration="4484000" />
+      <workItem from="1685974182560" duration="965000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
