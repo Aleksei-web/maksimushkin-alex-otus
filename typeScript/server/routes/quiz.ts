@@ -1,6 +1,7 @@
-const express = require("express");
-const isLicenseValid = require('../middlleware/isLicenseValid');
-const QuizController = require('../controllers/quiz');
+import express from "express";
+import {isLicenseValid} from "../middlleware/isLicenseValid";
+import {QuizController} from "../controllers/quiz";
+
 
 const router = express.Router();
 
@@ -16,4 +17,4 @@ router.post("/get_data/:id", QuizController.getAllDataCompany); // постра�
 router.get("/quiz_count/:id_company/:startDate/:endDate", QuizController.getQuizsCount); // получаем колличенство отзывов
 
 
-module.exports = router; 
+export default router

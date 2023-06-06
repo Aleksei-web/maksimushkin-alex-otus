@@ -1,6 +1,5 @@
-const qs = require('querystring')
-const axios = require('axios')
-const parseString = require('xml2js').parseString;
+import qs from 'querystring'
+import axios from "axios";
 
 const config = {
   headers: {
@@ -12,7 +11,6 @@ const requestBody = {
   INN: '9998887878',
   RegDate: '2019-12-01'
 }
-console.log(qs.stringify(requestBody));
 
 axios.post('http://payaction.ru/uop/check.php', qs.stringify(requestBody), config)
 	.then(res => {
