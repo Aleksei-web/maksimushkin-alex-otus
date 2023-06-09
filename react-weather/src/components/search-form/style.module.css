@@ -1,0 +1,30 @@
+.form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    margin-top: 12px;
+    font-size: 24px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.label {
+    font-size: 18px;
+}
+
+.button {
+    padding: 0;
+    border: none;
+    background: lightgray;
+    margin-top: 20px;
+    height: 40px;
+    font-size: 24px;
+    border-radius: 4px;
+}
