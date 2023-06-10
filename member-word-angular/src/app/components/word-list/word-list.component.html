@@ -1,0 +1,8 @@
+<div class="word-container" *ngFor="let word of wordList">
+  <div  class="word">{{word.word}}</div>
+  <div class="word">{{word.translate}}</div>
+  <div>
+    <button class="app-btn btn-error" (click)="deleteWord(word.id)">удалить</button>
+  </div>
+
+</div>

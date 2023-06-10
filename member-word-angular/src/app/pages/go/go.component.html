@@ -1,0 +1,16 @@
+<button *ngIf="!isStarted" class="app-btn" (click)="isStarted = !isStarted">Go</button>
+<div *ngIf="isDone" class="success-alert">вы повторили все слова</div>
+
+<div style="text-align: center" *ngIf="isStarted && !isDone">
+  <h3>напишите перевод слова</h3>
+  <div style="font-size: 32px">{{currentWord.word}}</div>
+  <div style="display: flex;align-items: center; justify-content: center; margin-top: 40px">
+    <form [formGroup]="form" (ngSubmit)="nextWord()">
+      <input formControlName="translate" placeholder="перевод" type="text" >
+    </form>
+    <button class="app-btn" (click)="nextWord()">next</button>
+  </div>
+  <div *ngIf="currentWord.translate === form.value.translate" class="success-alert">верно</div>
+
+</div>
+

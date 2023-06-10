@@ -1,0 +1,13 @@
+.word-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  border: 1px solid blue;
+  border-radius: 8px;
+}
+
+.word {
+  width: 200px;
+  margin: 0 40px;
+}
