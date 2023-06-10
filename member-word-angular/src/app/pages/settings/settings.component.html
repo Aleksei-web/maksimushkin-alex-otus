@@ -1,0 +1,30 @@
+<div>
+  <h3>настройки</h3>
+  <div>
+    <div class="container">
+      <div>
+        <p>колличество слов для повторения</p>
+      </div>
+
+      <div class="ml-20">
+        <button class="app-btn" (click)="decreaseCount()">-</button>
+        <span>{{countWordsForTrain}}</span>
+        <button class="app-btn" (click)="increaseCount()">+</button>
+      </div>
+    </div>
+
+    <div>
+      <div class="container">
+        <div>
+          <p>время на выполнение в секундах</p>
+        </div>
+
+        <div class="ml-20">
+          <button class="app-btn" (click)="decreaseTime()">-</button>
+          <span>{{timeToTrain}}</span>
+          <button class="app-btn" (click)="increaseTime()">+</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

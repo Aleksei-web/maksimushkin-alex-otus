@@ -1,0 +1,19 @@
+<form
+  style="display: flex; align-items: center"
+  [formGroup]="form"
+  (ngSubmit)="submit()"
+>
+
+  <input
+    placeholder="слово"
+    type="text"
+    formControlName="word"
+  >
+  <input
+    placeholder="перевод"
+    type="text"
+    formControlName="translate"
+  >
+
+  <button type="submit" class="app-btn">сохраить</button>
+</form>
