@@ -18,7 +18,6 @@ export class FormAddComponent {
   }
 
   submit() {
-    console.log('this.form.value')
     if (this.form.value.word && this.form.value.translate) {
       this.wordService.add({
         word: this.form.value.word,

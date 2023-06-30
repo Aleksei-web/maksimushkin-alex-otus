@@ -22,7 +22,7 @@ import {ReactiveFormsModule} from "@angular/forms";
     FormAddComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     ReactiveFormsModule
   ],
